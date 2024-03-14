@@ -2,20 +2,32 @@
 
 ## Intro
 
-This lesson will allow you to practice your Fetch utilization and DOM manipulation.
+This lesson will allow you to practice utilizing Fetch and DOM manipulation.
 
 Rick and Morty is an American science show. This API is rich in information about the show. The API is able to field request to many `id's` through its query params.
 
+For more information on The Rick and Morty API, visit https://rickandmortyapi.com/
+
 ## Instructions
 
-The instructions will be vague for a reason. After all, you can accomplish this task many different ways.
+### Fetch Data from API and Render Characters
 
-- Utilize existing files and code to fetch data from the API for two Rick and Morty characters. 
-- Once you can visualize the data in your console, use the existing `render` function to display pictures of the two characters.
-- To do this, it will require retrieving elements from the `HTML` file and modifying some of their properties.
-- After the successful retrieval and rendering, ensure that each picture is centered, has a border radius, and a border color of your choice.
+In `script.js`, a `render` function exists. This function takes two parameters: the first character's ID and the second character's ID.
+
+- [ ] Inside the `render` function, target the two `<img>` elements from our HTML
+- [ ] Set the `<img>` elements `src` attributes to the image URLs retrieved fom the API
+    - To find the image URLs, look through the data in the console
+
+### Styling Characters
+
+- [ ] After rendering the character images, add CSS styles to ensure your page is visually appealing
+- [ ] Use CSS to center each image within its container element
+- [ ] Apply a border radius to round the corners of each image 
+- [ ] Choose a border color of your preference and apply it to the images to distinguish them from the background
+- [ ] Test the appearance of the images in the browser and adjust the styles as needed
 
 ## Going Further
-- Access the character's name and display it above the pictures
-- Give a user the ability to choose the character id through the use of an input.
+- Access the characters' name and display it above the pictures
+- Give a user the ability to choose the character ID through the use of an input.
 - Try and handle all the errors you may encounter
+- There are many ways to accomplish the goal of this lab; see if you can achieve the same result with a different method
