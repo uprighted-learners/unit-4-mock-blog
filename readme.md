@@ -2,7 +2,7 @@
 
 ## Intro
 
-This lesson will allow you to practice utilizing Fetch and DOM manipulation.
+This exercise will allow you to practice utilizing Fetch and DOM manipulation.
 
 Rick and Morty is an American science show. This API is rich in information about the show. The API is able to field request to many `id's` through its query params.
 
@@ -30,4 +30,4 @@ In `script.js`, a `render` function exists. This function takes two parameters: 
 - Access the characters' name and display it above the pictures
 - Give a user the ability to choose the character ID through the use of an input.
 - Try and handle all the errors you may encounter
-- There are many ways to accomplish the goal of this lab; see if you can achieve the same result with a different method
+- There are many ways to accomplish the goal of this exercise; see if you can achieve the same result with a different method
